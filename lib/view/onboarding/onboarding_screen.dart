@@ -52,18 +52,24 @@ class OnboardingScreen extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
                           OnboardingButton(
-                            imgPath: "assets/images/student.jpg",
+                            imgPath: "assets/images/student.png",
                             text: "Student",
                             onTap: () => Navigator.push(
                                 context,
                                 MaterialPageRoute(
                                     builder: (context) =>
-                                        CountrySelectionScreen())),
+                                        const CountrySelectionScreen(
+                                            isStudent: true))),
                           ),
                           OnboardingButton(
-                            imgPath: "assets/images/agent.jpg",
+                            imgPath: "assets/images/agent.png",
                             text: "Agent",
-                            onTap: () {},
+                            onTap: () => Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) =>
+                                        const CountrySelectionScreen(
+                                            isStudent: false))),
                           ),
                         ],
                       ),
