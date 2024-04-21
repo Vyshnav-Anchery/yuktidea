@@ -38,7 +38,8 @@ dependencies:
   flutter_widget_from_html: ^0.14.11
   flutter_svg: ^2.0.10+1
   fluttertoast: ^8.2.5
-  flutter_inset_box_shadow: ^1.0.8
+  flutter_inset_box_shadow: ^1.0.8 
+  sms_autofill: ^2.3.1
   
   
 

@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_application_3/model/terms%20model/terms_model.dart';
 import 'package:http/http.dart' as http;
